@@ -1,4 +1,6 @@
+DO
+$$
 BEGIN
---para exibir valores no console
-RAISE NOTICE 'Meu primeiro Bloco anônimo!!';
+RAISE NOTICE '% + % = %', 2, 2, 2 + 2;
 END;
+$$
